@@ -1,1 +1,85 @@
 /* You can add global styles to this file, and also import other style files */
+body,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Microsoft YaHei";
+}
+
+*:focus {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 全局样式 */
+.container {
+  width: 1000px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+
+/* position */
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.column {
+  flex-flow: column;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-end {
+  justify-content: flex-end;
+}
+
+.ai-end {
+  align-items: flex-end;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.ai-between {
+  align-items: space-between;
+}
+
+.jc-stretch {
+  justify-content: stretch;
+}
+
+.ai-stretch {
+  align-items: stretch;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}

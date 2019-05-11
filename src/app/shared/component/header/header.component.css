@@ -1,0 +1,40 @@
+.top>a:hover {
+  color: #f10202 !important;
+}
+
+.title>p {
+  font-size: 30px;
+  color: #f10202;
+}
+
+.title>section>p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f10202;
+}
+
+.nav {
+  height: 32px;
+  background-image: url(/assets/icons/me_bj_1.gif);
+}
+
+.nav>a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nav>a:first-child {
+  margin-left: 10px;
+}
+
+.nav>span {
+  color: #fff;
+  height: 18px;
+  overflow: hidden;
+  margin: 0 10px;
+}
+
+.nav>a:hover {
+  color: yellow !important;
+}
