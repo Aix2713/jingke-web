@@ -10,11 +10,9 @@
 </div>
 <img src="/assets/imgs/timg1.jpg" style="margin-top:30px;" width="1000" height="300" alt="">
 <div class="nav flex ai-center">
-  <a href="javascript:;">网站首页</a>
-  <span>|</span>
-  <a href="javascript:;">代理记账</a>
-  <span>|</span>
-  <a href="javascript:;">工商注册</a>
-  <span>|</span>
-  <a href="javascript:;">税盘托管</a>
+  <img src="/assets/imgs/me_bj.gif" alt="P" style="margin-right:10px">
+  <ng-container *ngFor="let item of navItems;let i = index;">
+    <a href="{{item.url}}" [ngClass]="{'active': item.id===selectId}">{{item.text}}</a>
+    <span *ngIf="i!==navItems.length-1">|</span>
+  </ng-container>
 </div>

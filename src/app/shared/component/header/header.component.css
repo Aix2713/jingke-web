@@ -3,8 +3,9 @@
 }
 
 .title>p {
-  font-size: 30px;
+  font-size: 40px;
   color: #f10202;
+  font-family: LiSu, "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu
 }
 
 .title>section>p {
@@ -36,5 +37,9 @@
 }
 
 .nav>a:hover {
+  color: yellow !important;
+}
+
+a.active {
   color: yellow !important;
 }
