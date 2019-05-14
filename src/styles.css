@@ -83,3 +83,15 @@ a {
 .absolute {
   position: absolute;
 }
+
+.color-primary {
+  color: #21aa93 !important;
+}
+
+.bg-color-primary {
+  background-color: #21aa93 !important;
+}
+
+.border-primary {
+  border: 1px solid #21aa93 !important;
+}

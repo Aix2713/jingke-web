@@ -7,7 +7,7 @@ const navItems: object[] = [
   { id: 4, text: '所得税汇缴清算', url: 'sdshjqs' },
 ];
 
-const csItems: object[] = [
+export const csItems: object[] = [
   { id: 1, text: '代理记账', url: 'csdl/dljz' },
   { id: 2, text: '一般纳税人资格认定', url: 'csdl/ybnsrzgrd' },
   { id: 3, text: '验资服务', url: 'csdl/yzfw' },

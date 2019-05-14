@@ -2,15 +2,15 @@
   <a href="javascript:;" style="color:#333;font-size:14px;">联系我们</a>
 </div>
 <div class="title flex jc-between ai-center">
-  <p>平顶山市京科财税服务有限公司</p>
+  <p class="color-primary">平顶山市京科财税服务有限公司</p>
   <section class="flex ai-center">
-    <img style="margin-right:10px;" src="/assets/icons/phone1.gif" alt="">
-    <p>服务热线：0375-7050270</p>
+    <img style="margin-right:10px;" width="30" src="/assets/icons/phone_03.png" alt="电话：">
+    <p class="color-primary">服务热线：0375-7050270</p>
   </section>
 </div>
 <img src="/assets/imgs/timg1.jpg" style="margin-top:30px;" width="1000" height="300" alt="">
-<div class="nav flex ai-center">
-  <img src="/assets/imgs/me_bj.gif" alt="P" style="margin-right:10px">
+<div class="nav flex ai-center bg-color-primary">
+  <!-- <img src="/assets/imgs/me_bj.gif" alt="P" style="margin-right:10px"> -->
   <ng-container *ngFor="let item of navItems;let i = index;">
     <a href="{{item.url}}" [ngClass]="{'active': item.id===selectId}">{{item.text}}</a>
     <span *ngIf="i!==navItems.length-1">|</span>

@@ -1,0 +1,11 @@
+.bottom {
+  border-top: 2px solid #21aa93;
+  margin-top: 20px;
+  padding: 20px;
+  line-height: 25px;
+}
+
+.bottom p {
+  font-size: 12px;
+  color: #666;
+}

@@ -1,22 +1,21 @@
 .top>a:hover {
-  color: #f10202 !important;
+  color: #21aa93 !important;
 }
 
 .title>p {
   font-size: 40px;
-  color: #f10202;
   font-family: LiSu, "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu
 }
 
 .title>section>p {
   font-size: 20px;
   font-weight: 700;
-  color: #f10202;
 }
 
 .nav {
   height: 32px;
-  background-image: url(/assets/icons/me_bj_1.gif);
+  /* background-image: url(/assets/icons/me_bj_1.gif); */
+  background: #21aa93;
 }
 
 .nav>a {
