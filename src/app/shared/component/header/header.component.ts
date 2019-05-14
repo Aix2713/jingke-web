@@ -4,9 +4,9 @@ const navItems: object[] = [
   { id: 1, text: '网站首页', url: '' },
   { id: 2, text: '财税代理', url: 'csdl' },
   { id: 3, text: '工商注册', url: 'gszc' },
-  { id: 4, text: '税盘托管', url: 'sptk' },
+  { id: 4, text: '税盘托管', url: 'sptg' },
   { id: 5, text: '所得税汇缴清算', url: 'sdshjqs' },
-  { id: 5, text: '联系我们', url: 'lxwm' },
+  { id: 6, text: '联系我们', url: 'lxwm' },
 ];
 
 @Component({

@@ -1,0 +1,17 @@
+.item {
+  margin-top: 10px;
+}
+
+.item>img {
+  margin: 0 10px;
+}
+
+.item>a {
+  white-space: nowrap;
+  font-size: 12px;
+  color: #666;
+}
+
+.item>a:hover {
+  color: #21aa93;
+}

@@ -5,10 +5,11 @@
     <div *ngFor="let item of csItems" class="flex item ai-center">
       <img src="/assets/imgs/dern.gif" width="12" height="12" alt="P">
       <a href="{{item.url}}">{{item.text}}</a>
-      <img src="/assets/imgs/hotnews.gif" width="23" height="9" alt="P">
+      <!-- <img src="/assets/imgs/hotnews.gif" width="23" height="9" alt="P"> -->
     </div>
   </div>
-  <div *ngIf="pageType==='dljz'">
-  </div>
+  <app-dljz *ngIf="pageType==='dljz'"></app-dljz>
+  <app-yzfw *ngIf="pageType==='yzfw'"></app-yzfw>
+  <app-sbdb *ngIf="pageType==='sbdb'"></app-sbdb>
   <app-bottom></app-bottom>
 </div>

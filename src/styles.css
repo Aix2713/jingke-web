@@ -22,7 +22,7 @@ a {
 /* 全局样式 */
 .container {
   width: 1000px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   margin: 0 auto;
 }
 
