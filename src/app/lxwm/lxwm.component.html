@@ -1,29 +1,29 @@
 <div class="container">
-  <app-header [selectId]="6"></app-header>
-  <div style="height:20px;"></div>
-  <div class="flex">
-    <div class="flex column">
-      <div class="zyyw-title bg-color-primary">主要业务</div>
-      <div class="zyyw" style="width:230px;">
-        <div *ngFor="let nav of navItems" class="flex ai-center aaa">
-          <img src="/assets/icons/icon.gif" alt="P">
-          <a href="{{nav.url}}">{{nav.text}}</a>
-        </div>
-      </div>
-    </div>
-    <div class="flex flex-1 column" style="margin-left:20px;">
-      <div class="zyyw-title bg-color-primary">联系我们</div>
-      <div class="zyyw flex jc-between ai-center">
+    <app-header [selectId]="6"></app-header>
+    <div style="height:20px;"></div>
+    <div class="flex">
         <div class="flex column">
-          <p>平顶山市京科财税服务有限公司</p>
-          <span>手机：17603753029</span>
-          <span>电话：0375-7050270</span>
-          <span>邮箱：3208203406@qq.com</span>
-          <span>地址：鲁山县望城路中段豪润楼601房</span>
+            <div class="zyyw-title bg-color-primary">主要业务</div>
+            <div class="zyyw" style="width:230px;">
+                <div *ngFor="let nav of navItems" class="flex ai-center aaa">
+                    <img src="/assets/icons/icon.gif" alt="P">
+                    <a href="{{nav.url}}">{{nav.text}}</a>
+                </div>
+            </div>
         </div>
-        <img src="/assets/imgs/img7.jpg" width="151" height="204" alt="" style="margin-right:20px;">
-      </div>
+        <div class="flex flex-1 column" style="margin-left:20px;">
+            <div class="zyyw-title bg-color-primary">联系我们</div>
+            <div class="zyyw flex jc-between ai-center">
+                <div class="flex column">
+                    <p>平顶山市京科财税服务有限公司</p>
+                    <span>手机：17603753029</span>
+                    <span>电话：0375-7050270</span>
+                    <span>邮箱：724337751@qq.com</span>
+                    <span>地址：鲁山县望城路中段豪润楼601房</span>
+                </div>
+                <img src="/assets/imgs/img7.jpg" width="151" height="204" alt="" style="margin-right:20px;">
+            </div>
+        </div>
     </div>
-  </div>
-  <app-bottom></app-bottom>
+    <app-bottom></app-bottom>
 </div>
